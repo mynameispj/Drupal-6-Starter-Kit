@@ -1,0 +1,18 @@
+; $Id: Site Name
+
+name = 
+description = 
+core = 6.x
+engine = phptemplate
+screenshot = screenshot.png
+
+stylesheets[all][] = _/css/style.css
+
+regions[left] = Left sidebar
+regions[right] = Right sidebar
+regions[content] = Content
+regions[header] = Header
+regions[footer] = Footer
+
+scripts[] = _/js/modernizr-1.7.min.js
+scripts[] = _/js/functions.js
